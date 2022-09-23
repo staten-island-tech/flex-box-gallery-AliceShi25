@@ -12,6 +12,18 @@ body {
 
 .sub {
   font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  background-color: darkslateblue;
+}
+
+.about-col {
+  background-color: firebrick;
+}
+
+.h {
+  border: 1px solid black;
 }
 
 h2 {
