@@ -6,25 +6,30 @@ html,
 body {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 10 auto;
   font-size: 62.5%;
 }
 
-.sub {
+.parent {
   font-size: 20px;
   display: flex;
   justify-content: space-around;
-  height: 50vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
   background-color: darkslateblue;
 }
 
-.about-col {
-  background-color: firebrick;
+.row1{
+  align-content: flex-start;
 }
 
-.h {
-  border: 1px solid black;
+.row2{
+  align-content: center;
 }
+.row3{
+  align-content: flex-end;
+}
+
 
 h2 {
   margin: 1rem;
