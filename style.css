@@ -6,20 +6,20 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 10 auto;
-  font-size: 150%;
+  font-size: 62.5%;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  background-color: #1E3A8A;
-  {"color100":"#EFF6FF","color200":"#DBEAFE","color300":"#BFDBFE","color400":"#93C5FD","color500":"#60A5FA","color600":"#3B82F6","color700":"#2563EB","color800":"#1D4ED8","color900":"#1E40AF","color1000":"#1E3A8A"}
+  background-color: #c79ef7;
+  {"color100":"#fcf9ff","color200":"#f7efff","color300":"#eedfff","color400":"#dec5fd","color500":"#c79ef7","color600":"#a872e8","color700":"#8344cc","color800":"#592099","color900":"#2c1349"}
 }
 
 h1 {
-  font-size: 150%;
-  color: #BFDBFE;
+  font-size: 7rem;
+  color: #eedfff;
 }
 .parent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -27,11 +27,12 @@ h1 {
 .box {
   flex: 0 0 32%;                       
   width: 32vw;
-  margin: 10px auto;
-  background-color: #2563EB;
+  margin: 5px auto;
+  background-color: #c79ef7;
   align-content: center;
+  border: solid #fcf9ff;
   border-radius: 25px;
-  box-shadow: 10px 8px 0px #93C5FD;;
+  box-shadow: 6px 4px 0px #dec5fd;
 }
 
 .img {
@@ -45,9 +46,9 @@ h1 {
 
 h2 {
   margin: 1rem;
-  font-size: 1rem;
-  background-color: #2563EB;
-  color: #EFF6FF;
+  font-size: 3rem;
+  background-color: #c79ef7;
+  color: #f7efff;
 }
 
 .px-size {
