@@ -22,6 +22,8 @@ h1 {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .box {
