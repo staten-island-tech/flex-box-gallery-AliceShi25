@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 8rem;
   color: #b9efff;
 }
 .parent {
@@ -24,6 +24,7 @@ h1 {
   flex-direction: row;
   padding-left: 1.5rem;
   padding-top: 1.5rem;
+  text-align: center;
 }
 
 .box {
@@ -34,7 +35,8 @@ h1 {
   align-content: center;
   border: solid #e8faff;
   border-radius: 25px;
-  box-shadow: 8px 6px 0px #009bcb;
+  box-shadow: 10px 8px 0px #009bcb;
+  overflow-wrap: break-word;
 }
 
 .img {
@@ -49,7 +51,7 @@ h1 {
 
 h2 {
   margin: 1rem;
-  font-size: 3rem;
+  font-size: 4rem;
   background-color: #0db7eb;
   color: #e8faff;
 }
