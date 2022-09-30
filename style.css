@@ -9,13 +9,13 @@ body {
   font-size: 62.5%;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  background-color: #0de589;
-  {"color100":"#e6fcf3","color200":"#c9f8de","color300":"#aaf4c8","color400":"#88f0b3","color500":"#5feb9e","color600":"#0de589","color700":"#06b66c","color800":"#028950","color900":"#005e36"}
+  background-color: #0db7eb;
+  {"color100":"#e8faff","color200":"#b9efff","color300":"#89e5ff","color400":"#5adaff","color500":"#2cc8f7","color600":"#0db7eb","color700":"#009bcb","color800":"#00769b","color900":"#00526c"}
 }
 
 h1 {
   font-size: 7rem;
-  color: #c9f8de;
+  color: #b9efff;
 }
 .parent {
   display: flex;
@@ -30,11 +30,11 @@ h1 {
   flex: 0 0 32%;                       
   width: 32vw;
   margin: 5px auto;
-  background-color: #0de589;
+  background-color: #0db7eb;
   align-content: center;
-  border: solid #e6fcf3;
+  border: solid #e8faff;
   border-radius: 25px;
-  box-shadow: 6px 4px 0px #5feb9e;
+  box-shadow: 8px 6px 0px #009bcb;
 }
 
 .img {
@@ -50,8 +50,8 @@ h1 {
 h2 {
   margin: 1rem;
   font-size: 3rem;
-  background-color: #0de589;
-  color: #e6fcf3;
+  background-color: #0db7eb;
+  color: #e8faff;
 }
 
 .px-size {
