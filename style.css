@@ -7,12 +7,12 @@ body {
   font-size: 62.5%;
   text-align: center;
   font-family: "Amatic SC", cursive;
-  background-color: #00b4d8;
+  background-color: #04b3d6;
 }
 
 h1 {
   font-size: 9rem;
-  color: #caf0f8;
+  color: #e4fbff;
 }
 .parent {
   display: flex;
@@ -27,12 +27,18 @@ h1 {
   flex: 0 0 31%;
   width: 32vw;
   margin: 10px auto;
-  background-color: #00b4d8;
+  background-color: #22c9eb;
   align-content: center;
-  border: solid #caf0f8;
+  border: solid #f4fdff;
   border-radius: 25px;
+  height: 55rem;
   box-shadow: 12px 10px 0px #0077b6;
   overflow-wrap: break-word;
+  transition: all 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.1);
 }
 
 .img {
@@ -40,15 +46,20 @@ h1 {
   display: flex;
   width: 15vw;
   padding: 1rem;
+  background-color: #22c9eb;
 }
 
 h2 {
   margin: 1rem;
   font-size: 4rem;
-  background-color: #00b4d8;
-  color: #caf0f8;
+  background-color: #22c9eb;
+  color: #e4fbff;
 }
 
+.link {
+  font-size: 2rem;
+  background-color: #22c9eb;
+}
 .px-size {
   font-size: 50px;
 }
