@@ -103,8 +103,8 @@ color: #e4fbff;
 border: solid #f4fdff;
 cursor: pointer;
 background-color: #04b3d6;
-padding: 8px 16px;
-font-size: 5rem;
+margin: 1rem auto;
+font-size: 3rem;
 text-align: center;
 width: 20vw;
 transition: all 0.3s;
@@ -116,6 +116,20 @@ button:hover{
   transform: scale(1.1);
   color: #0077b6;
   background-color: #fff;
+  animation: pulse 1.5s infinite;
+  transition: 0.3s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.8);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 
