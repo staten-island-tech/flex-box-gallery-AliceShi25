@@ -43,6 +43,12 @@ h1 {
   text-align: center;
 }
 
+@media screen and (min-width) {
+}
+
+@media screen and (max-width) {
+}
+
 .box {
   flex: 0 0 32%;
   width: 32vw;
@@ -73,6 +79,7 @@ h1 {
 
 .img:hover {
   transform: scale(1.05);
+  transform: rotate(8deg);
 }
 
 h2 {
@@ -107,8 +114,9 @@ button:hover {
   transform: scale(1.1);
   color: #0077b6;
   background-color: #f4fdff;
-  animation: pulse 1.5s infinite;
+  animation: pulse 2s infinite;
   transition: 0.3s;
+  border: solid #0077b6;
 }
 
 @keyframes pulse {
