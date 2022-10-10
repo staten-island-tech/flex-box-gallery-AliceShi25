@@ -64,6 +64,20 @@ h1 {
   transform: perspective(100rem) rotateY(-12deg);
 }
 
+
+.img {
+  flex: 0 0 32%;
+  display: flex;
+  width: 15vw;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.img:hover {
+  transform: scale(1.05);
+  transform: rotate(8deg);
+}
+
 @media(min-width: 360px) and (max-width: 680px) 
 {.parent
   {justify-content: space-between;
@@ -71,7 +85,10 @@ h1 {
   flex-direction: column;}
   .box
   {
-    width: 90vw;
+    width: 70vw;
+  }
+  .img{
+    width: 25vw;
   }
 }
 
@@ -87,18 +104,6 @@ h1 {
   {justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;}
-}
-.img {
-  flex: 0 0 32%;
-  display: flex;
-  width: 15vw;
-  padding: 1rem;
-  transition: 0.3s;
-}
-
-.img:hover {
-  transform: scale(1.05);
-  transform: rotate(8deg);
 }
 
 h2 {
