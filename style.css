@@ -43,10 +43,18 @@ h1 {
   text-align: center;
 }
 
-@media screen and (min-width) {
+@media screen and (min-width:375px) {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: columns;
+  width: 100%;
 }
 
-@media screen and (max-width) {
+@media screen and (max-width: 1024px) {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: columns;
+  width: 100%;
 }
 
 .box {
@@ -68,6 +76,7 @@ h1 {
   border: solid #0077b6;
   transform: perspective(100rem) rotateY(-12deg);
 }
+
 
 .img {
   flex: 0 0 32%;
