@@ -43,7 +43,6 @@ h1 {
   text-align: center;
 }
 
-
 .box {
   flex: 0 0 32%;
   width: 32vw;
@@ -64,7 +63,6 @@ h1 {
   transform: perspective(100rem) rotateY(-12deg);
 }
 
-
 .img {
   flex: 0 0 32%;
   display: flex;
@@ -78,32 +76,36 @@ h1 {
   transform: rotate(8deg);
 }
 
-@media screen and (min-width: 360px) and (max-width: 680px) 
-{.parent
-  {justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: column;}
-  .box
-  {
+@media screen and (min-width: 320px) and (max-width: 820) {
+  .parent {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .box {
     width: 70vw;
   }
-  .img{
+  .img {
     width: 25vw;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) 
-{.parent
-  {justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;}
+@media screen and (min-width: 820px) and (max-width: 1024px) {
+  .box {
+    width: 50vw;
+    flex: 0 0 45%;
+  }
+
+  .img {
+    width: 20vw;
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) 
-{.parent
-  {justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: row;}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .box {
+    width: 32vw;
+    flex: 0 0 32%;
+  }
 }
 
 h2 {
