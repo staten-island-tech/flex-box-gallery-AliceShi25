@@ -135,10 +135,12 @@ button:hover {
   }
 
   .img {
+    width: 25vw;
   }
 }
 
 @media and (min-width: 821px) and (max-width: 1024px) {
+ 
 }
 
 @media and (min-width: 1025px) and (max-width: 1400) {
