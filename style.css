@@ -13,7 +13,7 @@ body {
   background-color: #04b3d6;
 }
 h1 {
-  font-size: 9rem;
+  font-size: 10rem;
   color: #e4fbff;
 }
 
@@ -54,13 +54,13 @@ h1 {
   box-shadow: 12px 10px 0px #0077b6;
   overflow-wrap: break-word;
   transition: all 0.3s;
-  transition: transform 1s ease 0.3s;
+  transition: transform 0.7s ease 0.3s;
 }
 
 .box:hover {
   box-shadow: 0 10px 30px #0077b6;
   border: solid #0077b6;
-  transform: perspective(100rem) rotateY(-12deg);
+  transform: perspective(130rem) rotateY(-12deg);
 }
 
 .img {
@@ -78,7 +78,7 @@ h1 {
 
 h2 {
   margin: 1rem;
-  font-size: 4rem;
+  font-size: 5.5rem;
   color: #e4fbff;
   position: relative;
   transition: all 1s;
@@ -156,10 +156,38 @@ button:hover {
   }
 
   .img {
-    width: 25vw;
+    width: 30vw;
   }
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+  .parent {
+    flex-direction: row;
+  }
+  .box {
+    width: 50vw;
+    flex: 0 0 47%;
+  }
+  .img {
+    width: 20vw;
+  }
+}
+
+@media and (min-width: 1025px) and (max-width: 1400) {
+  .parent {
+    flex-direction: row;
+  }
+  .box {
+    width: 25vw;
+    flex: 0 0 20%;
+  }
+  .img {
+    width: 20vw;
+  }
+}
+>>>>>>> 679512bcab0646edcaa0f9cab77b47f9f2f58c76
 
 .px-size {
   font-size: 50px;
