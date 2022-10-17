@@ -125,13 +125,15 @@ button:hover {
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1400) {
+@media screen and (min-width: 1025px){
   .parent {
-    flex-direction: row;
-  }
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;}
   .box {
     width: 25vw;
-    flex: 0 0 25%;
+    flex: 0 0 22%;
   }
 }
 
@@ -159,35 +161,6 @@ button:hover {
     width: 30vw;
   }
 }
-
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 821px) and (max-width: 1024px) {
-  .parent {
-    flex-direction: row;
-  }
-  .box {
-    width: 50vw;
-    flex: 0 0 47%;
-  }
-  .img {
-    width: 20vw;
-  }
-}
-
-@media and (min-width: 1025px) and (max-width: 1400) {
-  .parent {
-    flex-direction: row;
-  }
-  .box {
-    width: 25vw;
-    flex: 0 0 20%;
-  }
-  .img {
-    width: 20vw;
-  }
-}
->>>>>>> 679512bcab0646edcaa0f9cab77b47f9f2f58c76
 
 .px-size {
   font-size: 50px;
